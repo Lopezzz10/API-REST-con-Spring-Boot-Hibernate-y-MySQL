@@ -42,6 +42,7 @@ public class ServicioPelicula {
         pelicula.setGenero(peliculaActualizada.getGenero());
         pelicula.setDuracion(peliculaActualizada.getDuracion());
         pelicula.setDisponible(peliculaActualizada.isDisponible());
+        pelicula.setCalificacion(peliculaActualizada.getCalificacion());
 
         return repository.save(pelicula);
     }
